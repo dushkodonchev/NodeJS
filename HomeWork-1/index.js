@@ -11,17 +11,6 @@ const text = fs.readFileSync(textFilePath, { encoding: "utf-8" });
 
 console.log(text);
 
-// FS sync methods
-
-// const textFilePath = path.join(import.meta.dirname, 'notepad.txt');
-
-// fs.writeFileSync(textFilePath, 'This text is from the sync method');
-
-// fs.appendFileSync(textFilePath, ' appended text')
-
-// const text = fs.readFileSync(textFilePath, {encoding: 'utf-8'});
-
-// console.log('Returned text', text);
 
 // Basic Requirements
 // Initialize a new npm project and create an index.js file.
